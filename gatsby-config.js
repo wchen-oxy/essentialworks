@@ -2,10 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/essentialworks`,
   siteMetadata: {
     title: `essentialworks`,
-    siteUrl: `https://www.yourdomain.tld`,
-    pathPrefix: `/essentialworks`,
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-sitemap"]
 };
