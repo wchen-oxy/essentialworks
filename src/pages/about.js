@@ -8,7 +8,7 @@ const AboutPage = (props) => (
     <div className="main-container" id="about-main-container"   >
         <div className="about-column-container" >
             <div id="about-image-container" >
-                <img id="about-image" src={withPrefix(profile)} ref={props.reference} />
+                <img id="about-image" src={(profile)} ref={props.reference} />
             </div>
         </div>
         <div className="about-column-container">
@@ -18,7 +18,7 @@ const AboutPage = (props) => (
                 </div>
                 <p>
                     We are a full service construction company serving New York City
-                    and the surrounding areas. With various specialties in general
+                    and the surrounding areas. We provide various specialties in general
                     construction and home improvement projects including:
                 </p>
                 <br />
