@@ -4,7 +4,8 @@
 module.exports = {
   siteMetadata: {
     title: `essentialworks`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.yourdomain.tld`,
+    pathPrefix: `/essentialworks`,
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-sitemap"]
 };

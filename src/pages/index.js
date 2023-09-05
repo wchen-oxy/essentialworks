@@ -8,7 +8,6 @@ import AboutPage from "./about";
 import * as img from "../styles/image-index";
 import photo from "../../static/phone-call.png";
 import lax from "lax.js";
-// import SEO from "./seo";
 import "../styles/index.scss";
 
 export default function Home() {
@@ -70,7 +69,6 @@ export default function Home() {
 
   return (
     <main>
-      {/* <SEO /> */}
       <div id="app-container">
         <Nav
           scrollTo={scrollTo}
