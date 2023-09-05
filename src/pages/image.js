@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/image.scss';
+import { withPrefix } from 'gatsby';
 
 const ImageHolder = (props) => {
     const [slideIndex, setSlideIndex] = useState(0);
@@ -44,7 +45,7 @@ const ImageHolder = (props) => {
                 <>
                     <div className={props.isModal ?  "modal-slideshow-container" : "regular-slideshow-container"  }>
                         <div className="mySlides fade">
-                            <img id="image" src={imageSource} />
+                            <img id="image" src={withPrefix(imageSource)} />
                             <div className="text" style={imageCaption.length !== 0 ? { backgroundColor: "rgba(44, 44, 44, 0.5)" } : { backgroundColor: "transparent" }}><p>{imageCaption}</p></div>
                         </div>
                         <a className="prev" onClick={() => moveSlides(-1)}>&#10094;</a>

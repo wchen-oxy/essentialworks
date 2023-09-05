@@ -1,7 +1,7 @@
 import React from "react";
 import { icons } from "../styles/image-index";
 import { slide as Menu } from "react-burger-menu";
-import * as img from "../styles/image-index";
+import { withPrefix } from "gatsby";
 
 const phone = icons.phone;
 
@@ -54,7 +54,7 @@ const Nav = (props) => {
           Contact Us
         </button>
         <a id="phone-link" href="tel:347-494-1802">
-          <img id="phone-image" src={phone} />
+          <img id="phone-image" src={withPrefix(phone)} />
           (347) 494-1802
         </a>
       </nav>
@@ -112,7 +112,7 @@ const Nav = (props) => {
         </Menu>
         <div className="phone-item-container">
           <a id="phone-link" href="tel:347-494-1802">
-            <img id="phone-image" src={phone} />
+            <img id="phone-image" src={withPrefix(phone)} />
             (347) 494-1802
           </a>
         </div>

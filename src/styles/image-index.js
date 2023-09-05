@@ -36,6 +36,7 @@ const kitchenblack2 = "/residential-gallery/kitchen-black/2.jpg";
 const kitchenblack3 = "/residential-gallery/kitchen-black/3.jpg";
 const kitchenblack4 = "/residential-gallery/kitchen-black/4.jpg";
 
+export const christian = "altered/philosophy-hero.jpg";
 export const icons = {
   phone: phoneCall,
   instagram: instagram,

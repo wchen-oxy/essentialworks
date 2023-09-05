@@ -7,26 +7,27 @@ import sideImage5 from "../../static/altered/side-image-5.jpg";
 import sideImage6 from "../../static/altered/side-image-6.jpg";
 import sideImage7 from "../../static/altered/side-image-7.jpg";
 import "../styles/highlight.scss";
+import { withPrefix } from "gatsby";
 
 
 const HighlightSection = (props) => (
     <div className="main-container" id="highlight-container">
         <div className="highlight-column-container" id="highlight-container-1">
             <div className="highlight-image-container">
-                <img className="fit-image-to-container highlight-image" src={sideImage7} />
+                <img className="fit-image-to-container highlight-image" src={withPrefix(sideImage7)} />
                 <h4>Quality</h4>
 
             </div>
         </div>
         <div className="highlight-column-container" id="highlight-container-2">
             <div className="highlight-image-container">
-                <img className="fit-image-to-container highlight-image" src={sideImage6} />
+                <img className="fit-image-to-container highlight-image" src={withPrefix(sideImage6)} />
                 <h4>Artistry</h4>
             </div>        
         </div>
         <div className="highlight-column-container" id="highlight-container-3">
             <div className="highlight-image-container">
-                <img className="fit-image-to-container highlight-image" src={sideImage2} />
+                <img className="fit-image-to-container highlight-image" src={withPrefix(sideImage2)} />
                 <h4>Detailed</h4>
             </div>        
         </div>

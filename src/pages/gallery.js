@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import ImageHolder from "./image";
 import '../styles/gallery.scss';
+import { withPrefix } from 'gatsby';
 
 
 const GalleryPage = (props) => {
@@ -43,7 +44,7 @@ const GalleryPage = (props) => {
         <div key={index} className="thumbnail-container" onClick={() => {
             open(index);
         }}>
-            <img className="thumbnail-image" src={thumbnail}></img>
+            <img className="thumbnail-image" src={withPrefix(thumbnail)}></img>
             <div className="caption-overlay">
                 <div className="caption-text-container">
                     <p className="caption-text">{caption}</p>

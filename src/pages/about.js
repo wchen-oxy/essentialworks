@@ -1,13 +1,14 @@
 import React from 'react';
 import profile from "../../static/Profile-tiny.jpg";
 import '../styles/about.scss';
+import { withPrefix } from 'gatsby';
 
 
 const AboutPage = (props) => (
     <div className="main-container" id="about-main-container"   >
         <div className="about-column-container" >
             <div id="about-image-container" >
-                <img id="about-image" src={profile} ref={props.reference} />
+                <img id="about-image" src={withPrefix(profile)} ref={props.reference} />
             </div>
         </div>
         <div className="about-column-container">
