@@ -1,5 +1,5 @@
 import React from "react";
-import { christian } from "../styles/image-index";
+import { lights } from "../styles/image-index";
 import "../styles/philosophy.scss";
 import { withPrefix } from "gatsby";
 
@@ -19,7 +19,7 @@ const PhilosophyPage = (props) => {
         <img
           alt="hard work image"
           className="fit-image-to-container"
-          src={withPrefix(christian)}
+          src={withPrefix(lights)}
           // data-lax-translate-y="300 50, 930 0"
           // data-lax-opacity="300 0, 700 1"
         />

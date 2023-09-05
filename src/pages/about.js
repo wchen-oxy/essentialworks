@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from "../../static/Profile-tiny.jpg";
+import {profile} from '../styles/image-index';
 import '../styles/about.scss';
 import { withPrefix } from 'gatsby';
 
