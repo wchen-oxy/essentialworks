@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkessentialworks=self.webpackChunkessentialworks||[]).push([[883],{429:function(e,t,a){a.r(t);var l=a(7294);t.default=()=>l.createElement("div",{stlye:{width:"100%",height:"100vh"}},l.createElement("h4",null,"404 Page not found"),l.createElement("p",null,"You mad lad, this isn't a page"))}}]);
+//# sourceMappingURL=component---src-pages-404-js-4ac0e89936d351d0b263.js.map
